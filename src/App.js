@@ -1,7 +1,7 @@
 import React from 'react';
 import {Provider} from 'react-redux';
 import store from "./Store/index.js";
-import {HashRouter as Router,Route,Switch} from 'react-router-dom';
+import {HashRouter as Router,Route,Switch,Redirect} from 'react-router-dom';
 import Home from './Pages/home.js';
 import Login from './Pages/login.js';
 
@@ -20,5 +20,6 @@ function App() {
     </Provider>
   );
 }
+
 
 export default App;
